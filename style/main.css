@@ -1,0 +1,89 @@
+body {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #0d192b;
+  font-family: 'Outfit', sans-serif;
+}
+
+body .main {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-color: #14253d;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+body .main .white {
+  color: white;
+}
+
+body .main .image {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+body .main .image img {
+  border-radius: 10px;
+}
+
+body .main .title {
+  padding-top: 10px;
+  text-align: left;
+}
+
+body .main .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+}
+
+body .main .details .left {
+  color: #00fff7;
+  font-weight: 600;
+}
+
+body .main .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+
+body .main .bottom .avator img {
+  border: solid 1px white;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+body .main p {
+  color: #8bacda;
+}
+
+body .main hr {
+  border: solid 1px #2f415b;
+}
+
+body .main .attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+body .main .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
